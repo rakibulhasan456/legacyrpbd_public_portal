@@ -1,0 +1,116 @@
+/* Reset + Sticky Footer Layout */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background: #d2d2d2;
+  color: #222;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  flex: 1;
+}
+
+/* Page Title */
+
+.site-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Amaranth';
+  letter-spacing: 1px;
+}
+
+/* Logos Row */
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.logo-row img {
+  width: 100px;
+  height: auto;
+}
+
+/* Button Section */
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10vh;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 300px;
+}
+
+.portal-btn {
+  background: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  /*font-size: 1.05rem;*/
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.28s ease;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.portal-btn:hover {
+  background-color: #4163ff;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  color: #ffffff;
+}
+
+a {
+  display: grid;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.site-footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.8rem;
+  color: #040404;
+  font-family: 'Montserrat';
+  margin-top: 40px;
+}
+
