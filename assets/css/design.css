@@ -115,7 +115,6 @@ a {
 }
 
 .info-note {
-  margin-top: 80px;
   font-size: 14px;
   text-align: center;
   color: #000000;
@@ -125,5 +124,7 @@ a {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   font-weight: 600;
+  max-width: 1000px;
+  margin: 80px auto 0!important;
 }
 
